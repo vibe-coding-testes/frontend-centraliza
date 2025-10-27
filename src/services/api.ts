@@ -1,7 +1,8 @@
 import axios from "axios";
 import { Ticket } from "@/types/ticket";
 
-const API_BASE_URL = "http://localhost:5001/api";
+// Production backend on Railway. Keep the same '/api' prefix as the server exposes endpoints under /api.
+const API_BASE_URL = "https://backend-centraliza-production.up.railway.app/api";
 
 export const api = axios.create({
   baseURL: API_BASE_URL,

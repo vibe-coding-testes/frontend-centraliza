@@ -128,9 +128,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="border-b bg-card shadow-[var(--shadow-card)]">
         <div className="container mx-auto px-6 py-4">
-          <h1 className="text-2xl font-bold text-foreground">
-            Sistema de Atendimento Multicanal
-          </h1>
+          <h1 className="text-2xl font-bold text-foreground">Centraliza</h1>
           <p className="text-sm text-muted-foreground mt-1">
             Gestão unificada de tickets e clientes
           </p>
