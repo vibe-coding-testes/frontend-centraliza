@@ -1,0 +1,11 @@
+authtoken: 34aZpd3lmC1FCFrqH013XWahsdR_2mbXRG9QB4KjVYP5RzkFW
+update_channel: stable
+
+tunnels:
+  api:
+    addr: 5001
+    proto: http
+
+  web:
+    addr: 8080
+    proto: http
